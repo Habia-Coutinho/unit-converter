@@ -34,7 +34,7 @@ Um conversor de unidades simples e interativo entre **milhas e quilômetros**.
 
 
 
-(screenshot.png)
+![Exemplo de uso](screenshot.png)
 
 ---
 
