@@ -16,7 +16,9 @@ Um conversor de unidades simples e interativo entre **milhas e quilômetros**.
 ## Tecnologias Utilizadas
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ---
@@ -47,3 +49,5 @@ Um conversor de unidades simples e interativo entre **milhas e quilômetros**.
 
 **Hábia Coutinho**  
 [![GitHub](https://img.shields.io/badge/GitHub-Habia--Coutinho-181717?style=for-the-badge&logo=github)](https://github.com/Habia-Coutinho)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/habia-coutinho)
