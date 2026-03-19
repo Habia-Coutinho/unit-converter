@@ -50,4 +50,4 @@ Um conversor de unidades simples e interativo entre **milhas e quilômetros**.
 **Hábia Coutinho**  
 [![GitHub](https://img.shields.io/badge/GitHub-Habia--Coutinho-181717?style=for-the-badge&logo=github)](https://github.com/Habia-Coutinho)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/habia-coutinho)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Hábia%20Coutinho-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/habia-coutinho)
