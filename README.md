@@ -15,9 +15,9 @@ Um conversor de unidades simples e interativo entre **milhas e quilômetros**.
 
 ## Tecnologias Utilizadas
 
-- **HTML** – estrutura da página  
-- **CSS** – estilo visual  
-- **JavaScript** – lógica do conversor  
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ---
 
@@ -46,4 +46,4 @@ Um conversor de unidades simples e interativo entre **milhas e quilômetros**.
 ## Autor
 
 **Hábia Coutinho**  
-[GitHub](https://github.com/Habia-Coutinho)
+[![GitHub](https://img.shields.io/badge/GitHub-Habia--Coutinho-181717?style=for-the-badge&logo=github)](https://github.com/Habia-Coutinho)
