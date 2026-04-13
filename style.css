@@ -1,20 +1,92 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo */
 body {
+  min-height: 100vh;
   background-color: mediumpurple;
-  color: pink;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 20px;
 }
 
+/* Container */
+.container {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Título */
 h1 {
   padding: 15px;
   text-align: center;
   background-color: white;
-  border-radius: 5px;
+  color: #333;
+  border-radius: 8px;
+  margin-bottom: 20px;
 }
 
+/* Campos do formulário */
+form div {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* Inputs e select */
+input, select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+/* Botão */
+button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: #6a5acd;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #483d8b;
+}
+
+/* Resultado */
 p {
+  margin-top: 15px;
   background-color: paleturquoise;
-  color: black;
-  border-radius: 5px;
-  width: 200px;
-  padding: 20px;
+  color: #000;
+  border-radius: 8px;
+  padding: 15px;
+  width: 100%; /* corrigido (antes era fixo) */
+}
+
+/* Acessibilidade (foco) */
+button:focus,
+input:focus,
+select:focus {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+/* Responsivo */
+@media (max-width: 480px) {
+  body {
+    padding: 10px;
+  }
 }
