@@ -1,33 +1,47 @@
 <!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
-    <title>Unit Converter</title>
-  </head>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversor de Unidades</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-  <body>
-    <div class= "container">
-    <h1>Unit Converter</h1>
-    <div>
-    <input type="number" id="userInput" placeholder="Enter number...">
-    </div>
+<body>
+
+  <main class="container">
+    <h1>Conversor de Unidades</h1>
+
+    <form id="form-conversor">
+
       <div>
-    <select id="unit">
-      <option value="milesToKm">Miles to Kilometers</option>
-      <option value="kmToMiles">Kilometers to Miles</option>
-    </select>
+        <label for="entrada">Valor</label>
+        <input 
+          type="number" 
+          id="entrada" 
+          placeholder="Digite um número"
+          required
+        >
       </div>
+
       <div>
-        <br>
-    <button onclick="convert()">Convert</button>
+        <label for="tipo-conversao">Tipo de conversão</label>
+        <select id="tipo-conversao">
+          <option value="milhasParaKm">Milhas → Quilômetros</option>
+          <option value="kmParaMilhas">Quilômetros → Milhas</option>
+        </select>
       </div>
-    <div>
-    <p>Result: <span id="resultElement">0</span></p>
-    </div>
-      
-    </div>
-  <script src="script.js">
-  </script>
-  </body>
+
+      <div>
+        <button type="submit">Converter</button>
+      </div>
+
+    </form>
+
+    <p>Resultado: <strong id="resultado">0</strong></p>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
 </html>
