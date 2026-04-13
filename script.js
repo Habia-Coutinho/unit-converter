@@ -1,31 +1,40 @@
-function convert() {
+// Seleciona elementos
+const form = document.getElementById("form-conversor");
+const entrada = document.getElementById("entrada");
+const tipo = document.getElementById("tipo-conversao");
+const resultado = document.getElementById("resultado");
 
- const inputValue = Number(
-document.getElementById("userInput").value);
+// Evento do formulário
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
 
- const unit = 
-document.getElementById("unit").value;
+  const valor = Number(entrada.value);
 
- const milesToKm = unit === "milesToKm";
+  // Validação
+  if (isNaN(valor) || entrada.value.trim() === "") {
+    resultado.textContent = "Digite um número válido";
+    return;
+  }
 
- let result = 0;
+  const milhasParaKm = tipo.value === "milhasParaKm";
 
- if (milesToKm === true) {
-  result = inputValue * 1.60934;
- } else {
-  result = inputValue / 1.60934;
- }
-  
-result = result.toFixed(2);
-  
- let resultString = "";
+  let valorConvertido;
 
- if (milesToKm) {
-  resultString = inputValue + " miles are " + result + " km";
- } else {
-  resultString = inputValue + " km are " + result + " miles";
- }
+  if (milhasParaKm) {
+    valorConvertido = valor * 1.60934;
+  } else {
+    valorConvertido = valor / 1.60934;
+  }
 
- const resultElement = document.getElementById("resultElement");
- resultElement.innerHTML = resultString;
-}
+  const valorFormatado = valorConvertido.toFixed(2);
+
+  let textoResultado;
+
+  if (milhasParaKm) {
+    textoResultado = `${valor} milhas são ${valorFormatado} km`;
+  } else {
+    textoResultado = `${valor} km são ${valorFormatado} milhas`;
+  }
+
+  resultado.textContent = textoResultado;
+});
